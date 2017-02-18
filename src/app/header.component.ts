@@ -8,10 +8,12 @@ import { StaticContent } from "./model/staticContent.model";
 })
 export class HeaderComponent {
   public blogTitle: string;
-  public navHeader: string;
+  public navHome: string;
+  public navAdmin: string;
 
   constructor(staticContent: StaticContent) {
     this.blogTitle = staticContent.blogTitle;
     this.navHome = staticContent.navbar.home;
+    this.navAdmin = staticContent.navbar.admin;
   }
 }
