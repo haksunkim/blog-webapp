@@ -8,7 +8,6 @@ import { AppComponent }  from './app.component';
 import { HeaderComponent } from "./header.component";
 import { SidebarComponent } from "./sidebar.component";
 import { routing } from "./app.routing";
-import { BlogComponent } from "./blog/blog.component";
 
 @NgModule({
   imports:      [ BrowserModule, ModelModule, routing, BlogModule ],
