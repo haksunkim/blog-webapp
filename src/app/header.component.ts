@@ -12,6 +12,6 @@ export class HeaderComponent {
 
   constructor(staticContent: StaticContent) {
     this.blogTitle = staticContent.blogTitle;
-    this.navHome = staticContent.navHome;
+    this.navHome = staticContent.navbar.home;
   }
 }
