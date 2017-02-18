@@ -1,7 +1,7 @@
 {
-  "name": "angular-quickstart",
+  "name": "blog-webapp",
   "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "description": "Angular 2 web application for blogging",
   "scripts": {
     "build": "tsc -p src/",
     "build:watch": "tsc -p src/ -w",
@@ -21,7 +21,7 @@
     "lint": "tslint ./src/**/*.ts -t verbose"
   },
   "keywords": [],
-  "author": "",
+  "author": "Haksun Kim",
   "license": "MIT",
   "dependencies": {
     "@angular/common": "~2.4.0",
