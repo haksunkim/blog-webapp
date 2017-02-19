@@ -10,8 +10,8 @@ export class ArticleRepository {
     datasource.getArticles().subscribe(data => this.articles = data);
   }
 
-  getArticles() : Article[] {
-    return this.articles;
+  getArticles(tag: string = null) : Article[] {
+    return this.articles.filter(a => tag == null || a.tags.indexOf(tag) != -1);
   }
 
   getArticle(id: number) : Article {
