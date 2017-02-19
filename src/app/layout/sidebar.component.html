@@ -12,3 +12,13 @@
     </div>
   </div>
 </div>
+<div class="card mt-3">
+  <div class="card-header bg-inverse">
+    <h4 style="color:#ffffff;">Tags</h4>
+  </div>
+  <div class="card-block">
+    <span *ngFor="let tag of tags">
+      <a [routerLink]="['/blog','tag',tag]">{{tag}}</a>
+    </span>
+  </div>
+</div>
