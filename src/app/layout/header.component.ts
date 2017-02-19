@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { StaticContent } from "./model/staticContent.model";
+import { StaticContent } from "../model/staticContent.model";
 
 @Component({
   selector: "app-header",
